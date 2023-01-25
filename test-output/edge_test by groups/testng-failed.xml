@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [edge_test by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-1(failed)">
+    <groups>
+      <run>
+        <include name="1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="edge_test.smart_buy">
+        <methods>
+          <include name="adding_items_test"/>
+        </methods>
+      </class> <!-- edge_test.smart_buy -->
+    </classes>
+  </test> <!-- GRP-1(failed) -->
+</suite> <!-- Failed suite [edge_test by groups] -->
